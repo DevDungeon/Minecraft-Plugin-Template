@@ -1,0 +1,12 @@
+name: helloplugin
+version: "1.0"
+author: NanoDano
+main: com.devdungeon.minecraft.helloplugin.HelloPlugin
+
+commands:
+  hello:
+    aliases: [hi, hey, yo]
+    description: Say hello to everyone
+    usage: |
+      /<command>
+      Example: /<command>
